@@ -8,6 +8,9 @@ import SevenSix from './components/SevenSix';
 import DayTwoComp from './components/DayTwoComp';
 import ChallengeOne from './components/ChallengeOne';
 import DayThreeComp from './components/DayThreeComp';
+import DayFourComp from './components/DayFourComp';
+import DayFiveComp from './components/DayFiveComp';
+import DaySixComp from './components/DaySixComp';
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
       <ChallengeOne/>
       <DayTwoComp/>
       <DayThreeComp/>
+      <DayFourComp/>
+      <DayFiveComp/>
+      <DaySixComp/>
     </div>
   );
 }
