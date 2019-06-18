@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import SevenOne from './components/SevenOne';
+import SevenTwo from './components/SevenTwo';
+import SevenThree from './components/SevenThree';
+import SevenFour from './components/SevenFour';
+import SevenFive from './components/SevenFive';
+import SevenSix from './components/SevenSix';
+import DayTwoComp from './components/DayTwoComp';
+import ChallengeOne from './components/ChallengeOne';
+import DayThreeComp from './components/DayThreeComp';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SevenOne/><br/>
+      <SevenTwo/><br/>
+      <SevenThree/><br/>
+      <SevenFour/><br/>
+      <SevenFive/><br/>
+      <SevenSix/><br/>
+      <ChallengeOne/>
+      <DayTwoComp/>
+      <DayThreeComp/>
     </div>
   );
 }
